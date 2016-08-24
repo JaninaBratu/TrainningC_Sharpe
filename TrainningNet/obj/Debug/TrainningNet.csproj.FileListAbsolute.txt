@@ -10,3 +10,9 @@ D:\Work\TrainningC_SharpeGitHub\TrainningC_Sharpe\TrainningNet\obj\Debug\Trainni
 D:\Work\TrainningC_SharpeGitHub\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.exe
 D:\Work\TrainningC_SharpeGitHub\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.pdb
 D:\Work\TrainningC_SharpeGitHub\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.exe.config
+E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.exe
+E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.pdb
+E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.exe
+E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.pdb
+E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.csprojResolveAssemblyReference.cache

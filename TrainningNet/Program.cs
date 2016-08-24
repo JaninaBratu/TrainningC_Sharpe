@@ -10,7 +10,8 @@ namespace TrainningNet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Example with ConsoleWriteline ");
+            //Console.WriteLine("Example with ConsoleWriteline ");
+            
             //int x = 3;
             //int y = 5;
             //int result = x + y;
@@ -25,7 +26,8 @@ namespace TrainningNet
 
 
 
-            Console.WriteLine("Example with string IMMUTABLE");
+            // Console.WriteLine("Example with string IMMUTABLE");
+            
             //STRINGS are IMMUTABLE
 
             //string empty1 = "";
@@ -35,7 +37,7 @@ namespace TrainningNet
             //Console.WriteLine("The lenght of the empty2 string is: " + empty2.Length);
 
 
-            Console.WriteLine("Example with the DIFERENCE BEWTEEN NULL AND EMPTY");
+            // Console.WriteLine("Example with the DIFERENCE BEWTEEN NULL AND EMPTY");
 
             //DIFERENCE BEWTEEN NULL AND EMPTY
 
@@ -52,7 +54,8 @@ namespace TrainningNet
             // Console.WriteLine($"2nd string is {nullString.Length} characters long.");
 
 
-            Console.WriteLine("Example with Replacing Parts of Strings");
+            // Console.WriteLine("Example with Replacing Parts of Strings");
+            
             // Replacing Parts of Strings
 
             //string name = "Steve";
@@ -69,7 +72,8 @@ namespace TrainningNet
             //Console.WriteLine(greetTemplate);
             //Console.WriteLine(greet4);
 
-            Console.WriteLine("EXERCISE with string !!!!");
+            // Console.WriteLine("EXERCISE with string !!!!");
+           
             /*
              * 
              * Now it's your turn. Create some code that will take two string variables and build a greeting from them. 
@@ -82,7 +86,9 @@ namespace TrainningNet
              * 
              * 
              * */
-            Console.WriteLine("Solution STRING");
+            
+            // Console.WriteLine("Solution STRING");
+            
             //string greetingMessage = "Hello Janina!";
             //var greetingAppereance = "";
             //while ((greetingAppereance = Console.ReadLine()) != null)
@@ -91,7 +97,8 @@ namespace TrainningNet
             //}
 
 
-            Console.WriteLine("Example with DateTime ");
+            // Console.WriteLine("Example with DateTime ");
+           
             // Example of datetime format : 7/1/2016 11:10:09 AM
             /*
              * year: 2016
@@ -110,8 +117,9 @@ namespace TrainningNet
             //which is used to represent a span of time, or a duration
 
 
-            Console.WriteLine("EXERCISE with DateTime !!!!");
-            /*
+            //Console.WriteLine("EXERCISE with DateTime !!!!");
+
+            * /*
              *
              * Write a simple program that defines a variable representing a birth date and calculates
              * how many days old the person with that birth date is currently.
@@ -121,7 +129,8 @@ namespace TrainningNet
              * 
              * 
              */
-            Console.WriteLine("Solution DATETIME");
+            
+            //Console.WriteLine("Solution DATETIME");
 
             //string date = "9 / 1 / 1992 07:05:00 AM"; //"7 / 1 / 2010 11:10:09 AM";
             //DateTime dateToSend = Convert.ToDateTime(date);
@@ -129,6 +138,27 @@ namespace TrainningNet
             //8757 days Janina ("9 / 1 / 1992 07:05:00 AM";)
             //10212 days Andrei ("9 / 7 / 1988 07:05:00 AM";)
             //DateTimeAction.CalculateNextBirthday(dateToSend);
+
+
+            //Console.WriteLine("EXERCISE with switch or/and if/or else if statements");
+
+            * /*
+             * 
+             * Your program can create a random number between 1 and 3 with the following code:
+                    int correctNumber = new Random().Next(4);
+               Write a program that generates a random number between 1 and 3 and asks the user to guess what the number is. 
+               Tell the user if they guess low, high, or get the correct answer.
+               Also, tell the user if their answer is outside of the range of numbers that are valid guesses 
+               (less than 1 or more than 3).
+               You can convert the user's typed answer from a string to an int using this code:
+                    int guessedNumber = int.Parse(Console.ReadLine());
+               Note that the above code will crash the program if the user doesn't type an integer value. 
+               For this exercise, assume the user will only enter valid guesses.
+             * 
+             */
+            //int randomNr = DecisionAction.GenerateRandomNumber();
+            //int maxRangeNr = 4;
+            //DecisionAction.GuessAnswer(maxRangeNr, randomNr);
         }
     }
 }
