@@ -46,7 +46,6 @@
     <Compile Include="DateTimeAction.cs" />
     <Compile Include="DecisionAction.cs" />
     <Compile Include="OperatorAction.cs" />
-    <Compile Include="PeriodOfDay.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringAction.cs" />
