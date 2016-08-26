@@ -16,3 +16,9 @@ E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.pdb
 E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.exe
 E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.pdb
 E:\.Net Trainning\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.csprojResolveAssemblyReference.cache
+D:\Work\GitHub\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.exe.config
+D:\Work\GitHub\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.exe
+D:\Work\GitHub\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.pdb
+D:\Work\GitHub\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.exe
+D:\Work\GitHub\TrainningC_Sharpe\TrainningNet\bin\Debug\TrainningNet.pdb
+D:\Work\GitHub\TrainningC_Sharpe\TrainningNet\obj\Debug\TrainningNet.csprojResolveAssemblyReference.cache

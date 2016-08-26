@@ -11,7 +11,7 @@ namespace TrainningNet
         static void Main(string[] args)
         {
             //Console.WriteLine("Example with ConsoleWriteline ");
-            
+
             //int x = 3;
             //int y = 5;
             //int result = x + y;
@@ -27,7 +27,7 @@ namespace TrainningNet
 
 
             // Console.WriteLine("Example with string IMMUTABLE");
-            
+
             //STRINGS are IMMUTABLE
 
             //string empty1 = "";
@@ -55,7 +55,7 @@ namespace TrainningNet
 
 
             // Console.WriteLine("Example with Replacing Parts of Strings");
-            
+
             // Replacing Parts of Strings
 
             //string name = "Steve";
@@ -73,7 +73,7 @@ namespace TrainningNet
             //Console.WriteLine(greet4);
 
             // Console.WriteLine("EXERCISE with string !!!!");
-           
+
             /*
              * 
              * Now it's your turn. Create some code that will take two string variables and build a greeting from them. 
@@ -86,9 +86,9 @@ namespace TrainningNet
              * 
              * 
              * */
-            
+
             // Console.WriteLine("Solution STRING");
-            
+
             //string greetingMessage = "Hello Janina!";
             //var greetingAppereance = "";
             //while ((greetingAppereance = Console.ReadLine()) != null)
@@ -98,7 +98,7 @@ namespace TrainningNet
 
 
             // Console.WriteLine("Example with DateTime ");
-           
+
             // Example of datetime format : 7/1/2016 11:10:09 AM
             /*
              * year: 2016
@@ -119,17 +119,17 @@ namespace TrainningNet
 
             //Console.WriteLine("EXERCISE with DateTime !!!!");
 
-            * /*
-             *
-             * Write a simple program that defines a variable representing a birth date and calculates
-             * how many days old the person with that birth date is currently.
-             * For extra credit, output the date of their next 10,000 day (about 27 years) anniversary. 
-             * Note: once you figure out their age in days, 
-             * you can calculate the days until the next anniversary using int daysToNextAnniversary = 10000 - (days % 10000);
-             * 
-             * 
-             */
-            
+            /*
+            *
+            * Write a simple program that defines a variable representing a birth date and calculates
+            * how many days old the person with that birth date is currently.
+            * For extra credit, output the date of their next 10,000 day (about 27 years) anniversary. 
+            * Note: once you figure out their age in days, 
+            * you can calculate the days until the next anniversary using int daysToNextAnniversary = 10000 - (days % 10000);
+            * 
+            * 
+            */
+
             //Console.WriteLine("Solution DATETIME");
 
             //string date = "9 / 1 / 1992 07:05:00 AM"; //"7 / 1 / 2010 11:10:09 AM";
@@ -142,23 +142,32 @@ namespace TrainningNet
 
             //Console.WriteLine("EXERCISE with switch or/and if/or else if statements");
 
-            * /*
-             * 
-             * Your program can create a random number between 1 and 3 with the following code:
-                    int correctNumber = new Random().Next(4);
-               Write a program that generates a random number between 1 and 3 and asks the user to guess what the number is. 
-               Tell the user if they guess low, high, or get the correct answer.
-               Also, tell the user if their answer is outside of the range of numbers that are valid guesses 
-               (less than 1 or more than 3).
-               You can convert the user's typed answer from a string to an int using this code:
-                    int guessedNumber = int.Parse(Console.ReadLine());
-               Note that the above code will crash the program if the user doesn't type an integer value. 
-               For this exercise, assume the user will only enter valid guesses.
-             * 
-             */
+            /*
+            * 
+            * Your program can create a random number between 1 and 3 with the following code:
+                   int correctNumber = new Random().Next(4);
+              Write a program that generates a random number between 1 and 3 and asks the user to guess what the number is. 
+              Tell the user if they guess low, high, or get the correct answer.
+              Also, tell the user if their answer is outside of the range of numbers that are valid guesses 
+              (less than 1 or more than 3).
+              You can convert the user's typed answer from a string to an int using this code:
+                   int guessedNumber = int.Parse(Console.ReadLine());
+              Note that the above code will crash the program if the user doesn't type an integer value. 
+              For this exercise, assume the user will only enter valid guesses.
+            * 
+            */
             //int randomNr = DecisionAction.GenerateRandomNumber();
             //int maxRangeNr = 4;
             //DecisionAction.GuessAnswer(maxRangeNr, randomNr);
+
+
+            //Console.WriteLine("EXERCISE with LOGICAL EXPRESSIONS");
+
+            string date = "9 / 1 / 1992 12:05:00 AM"; 
+            DateTime dateToSend = Convert.ToDateTime(date);
+            string meridianToSend = dateToSend.ToString("tt");
+
+            OperatorAction.GreetByPeriodDay(dateToSend, meridianToSend);
         }
     }
 }
