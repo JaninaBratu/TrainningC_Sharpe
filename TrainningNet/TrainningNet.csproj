@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DateTimeAction.cs" />
     <Compile Include="DecisionAction.cs" />
+    <Compile Include="LoopingAction.cs" />
     <Compile Include="OperatorAction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

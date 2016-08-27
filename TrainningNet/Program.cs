@@ -162,11 +162,28 @@ namespace TrainningNet
 
 
             //Console.WriteLine("EXERCISE with LOGICAL EXPRESSIONS");
+            /*
+             * Write a program that greets the user using the appropriate greeting for the time of day. 
+             * Use only if, not else or switch, statements to do so. Be sure to include the following greetings:
+             "Good Morning"
+             "Good Afternoon"
+             "Good Evening"
+             "Good Night"
+             It's up to you which times should serve as the starting and ending ranges for each of the greetings. 
+             If you need a refresher on how to get the current time, see Working with Dates and Times.
+             When testing your program, you'll probably want to use a DateTime variable you define,
+             rather than the current time. 
+             Once you're confident the program works correctly, you can substitute DateTime.Now for your variable
+             (or keep your variable and just assign DateTime.Now as its value, which is often a better approach).
+             * 
+             */
+            //string date = "01/08/2008 16:00"; 
+            // DateTime dateToSend = Convert.ToDateTime(date);
+            // OperatorAction.GreetByPeriodDay(dateToSend);
 
-            string date = "01/08/2008 16:00"; 
-            DateTime dateToSend = Convert.ToDateTime(date);
-
-            OperatorAction.GreetByPeriodDay(dateToSend);
+            //Console.WriteLine("EXERCISE with LOOPS");
+            LoopingAction.IfDivisible(2);
+            //http://www.softschools.com/math/topics/divisibility_rules_2_4_8_5_10/
         }
     }
 }
