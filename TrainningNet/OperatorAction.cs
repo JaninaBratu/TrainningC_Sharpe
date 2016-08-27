@@ -9,58 +9,35 @@ namespace TrainningNet
     public class OperatorAction
     {
 
-        public static readonly int morningMinHour = 03;
-        public static readonly int morningMaxHour = 11;
-        public static readonly int afternoonMinHour = 12;
-        public static readonly int afternoonMaxHour = 01;
-        public static readonly int eveningMinHour = 02;
-        public static readonly int eveningMaxHour = 05;
-        public static readonly int nightMinHour = 06;
-        public static readonly int nightMaxHour = 02;
+        public static readonly DateTime morningMinHour = DateTime.Parse("2012/12/12 03:00");
+        public static readonly DateTime morningMaxHour = DateTime.Parse("2012/12/12 11:00"); 
+        public static readonly DateTime afternoonMinHour = DateTime.Parse("2012/12/12 12:00");
+        public static readonly DateTime afternoonMaxHour = DateTime.Parse("2012/12/12 13:00");
+        public static readonly DateTime eveningMinHour = DateTime.Parse("2012/12/12 14:00");
+        public static readonly DateTime eveningMaxHour = DateTime.Parse("2012/12/12 17:00");
+        public static readonly DateTime nightMinHour = DateTime.Parse("2012/12/12 18:00");
+        public static readonly DateTime nightMaxHour = DateTime.Parse("2012/12/12 02:00");
 
-        public static readonly string anteMeridian = "AM";
-        public static readonly string postMeridian = "PM";
 
-        public static void GreetByPeriodDay(DateTime dateToSend, string meridianTime)
+        public static void GreetByPeriodDay(DateTime dateToSend)
         {
-            var value = dateToSend.Hour;
-
-            string dateTimeStringValue = dateToSend.Hour.ToString(); //dateToSend.ToString("HH:mm:ss");
-
-            int actualTimeIntValue = GetHourOfDay(dateTimeStringValue);
-
-            if (actualTimeIntValue >= morningMinHour  && actualTimeIntValue <= morningMaxHour && meridianTime.Equals(anteMeridian))
+            if (morningMinHour.TimeOfDay <= dateToSend.TimeOfDay && dateToSend.TimeOfDay <= morningMaxHour.TimeOfDay)
             {
                 Console.WriteLine("Good morning!");
             }
-            if (actualTimeIntValue >= afternoonMinHour && actualTimeIntValue > afternoonMaxHour && meridianTime.Equals(anteMeridian))
+            if (afternoonMinHour.TimeOfDay <= dateToSend.TimeOfDay && dateToSend.TimeOfDay <= afternoonMaxHour.TimeOfDay)
             {
                 Console.WriteLine("Good afternoon!");
             }
-            if(actualTimeIntValue >= eveningMinHour && actualTimeIntValue <= eveningMaxHour && meridianTime.Equals(anteMeridian))
+            if (eveningMinHour.TimeOfDay <= dateToSend.TimeOfDay && dateToSend.TimeOfDay <= eveningMaxHour.TimeOfDay)
             {
                 Console.WriteLine("Good evening!");
             }
-            if(actualTimeIntValue >= nightMinHour && actualTimeIntValue > nightMaxHour && meridianTime.Equals(postMeridian))
+            if (nightMinHour.TimeOfDay <= dateToSend.TimeOfDay && dateToSend.TimeOfDay <= nightMaxHour.TimeOfDay)
             {
                 Console.WriteLine("Good night!");
             }
+            Console.ReadLine();
         }
-
-        public static int GetHourOfDay(string dateToSend)
-        {
-            int valueToReturn = 0;
-            string[] arrayOfData = dateToSend.Split(':');
-            StringBuilder builderOfData = new StringBuilder();
-
-            if (arrayOfData.Length > 0)
-            {
-               valueToReturn = Int32.Parse(builderOfData.Append(arrayOfData[0]).ToString());
-
-            }
-
-            return valueToReturn;
-        }
-
     }
 }

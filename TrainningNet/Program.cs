@@ -163,11 +163,10 @@ namespace TrainningNet
 
             //Console.WriteLine("EXERCISE with LOGICAL EXPRESSIONS");
 
-            string date = "9 / 1 / 1992 12:05:00 AM"; 
+            string date = "01/08/2008 16:00"; 
             DateTime dateToSend = Convert.ToDateTime(date);
-            string meridianToSend = dateToSend.ToString("tt");
 
-            OperatorAction.GreetByPeriodDay(dateToSend, meridianToSend);
+            OperatorAction.GreetByPeriodDay(dateToSend);
         }
     }
 }
