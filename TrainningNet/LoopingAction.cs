@@ -49,13 +49,9 @@ namespace TrainningNet
                             Console.WriteLine("The number :" + nrToCheck);
                             Console.WriteLine("The number IS NOT divisible with 2 !");
                         }
-                        
                     }
                 }
-
             }
-            
-           
         }
     }
 }

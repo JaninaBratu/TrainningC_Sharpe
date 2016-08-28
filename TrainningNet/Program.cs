@@ -182,8 +182,46 @@ namespace TrainningNet
             // OperatorAction.GreetByPeriodDay(dateToSend);
 
             //Console.WriteLine("EXERCISE with LOOPS");
-            LoopingAction.IfDivisible(2);
+            /*
+             * The following program uses an if statement to determine whether a given number is divisible by 2. 
+             * Modify the program to change the two outer if statements into while loops 
+             * so that the program lists all of the factors of the number the user supplies. 
+             * You will need to ensure you update the values of both the number and factor variables within the loop(s) to avoid an infinite loop condition.
+                *Note that the % operator used below is the modulus operator. 
+                * It returns the remainder of an integer division operation. 
+             */
+            //LoopingAction.IfDivisible(2);
             //http://www.softschools.com/math/topics/divisibility_rules_2_4_8_5_10/
+
+
+            //Console.WriteLine("EXERCISE with NESTED LOOPS");
+            /*
+             * 
+             * Write a program that prints the result of counting up to 24 using four different increments. 
+             * First, count by 1s, then by 2s, by 3s, and finally by 4s.
+             * Use nested for loops with your outer loop counting from 1 to 4. 
+             * You inner loop should count from 0 to 24,
+             *  but increase the value of its loop control variable by the value of the loop control variable 
+             *  from the outer loop. This means the incrementing in the afterthought expression will be based on a variable.
+             */
+            //NestedLoopingAction.DisplayNumbersUpTo24();
+
+            //Console.WriteLine("EXERCISE with Arrays and Collections");
+
+            /*
+             * 
+             * Write a simple program that lets the user manage a list of elements. It can be a grocery list, "to do" list, etc. 
+             * Refer to Looping Based on a Logical Expression if necessary to see how to implement an infinite loop. 
+             * Each time through the loop, ask the user to perform an operation, 
+             * and then show the current contents of their list. 
+             * The operations available should be Add, Remove, and Clear. The syntax should be as follows:
+                + some item
+                - some item
+                --
+             * Your program should read in the user's input and determine if it begins with a "+" or "-", or if it is simply "--". In the first two cases, your program should add or remove the string given ("some item" in the example). If the user enters just "--" then the program should clear the current list. Your program can start each iteration through its loop with the following instruction: Console.WriteLine("Enter command (+ item, - item, or -- to clear)):");
+             * 
+             */
+            ArrayListAction.GetGroceryList();
         }
     }
 }

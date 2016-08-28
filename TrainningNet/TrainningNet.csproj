@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayListAction.cs" />
     <Compile Include="DateTimeAction.cs" />
     <Compile Include="DecisionAction.cs" />
     <Compile Include="LoopingAction.cs" />
+    <Compile Include="NestedLoopingAction.cs" />
     <Compile Include="OperatorAction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
