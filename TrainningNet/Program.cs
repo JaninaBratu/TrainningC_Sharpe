@@ -206,6 +206,7 @@ namespace TrainningNet
              */
             //NestedLoopingAction.DisplayNumbersUpTo24();
 
+            
             //Console.WriteLine("EXERCISE with Arrays and Collections");
 
             /*
@@ -221,7 +222,19 @@ namespace TrainningNet
              * Your program should read in the user's input and determine if it begins with a "+" or "-", or if it is simply "--". In the first two cases, your program should add or remove the string given ("some item" in the example). If the user enters just "--" then the program should clear the current list. Your program can start each iteration through its loop with the following instruction: Console.WriteLine("Enter command (+ item, - item, or -- to clear)):");
              * 
              */
-            ArrayListAction.GetGroceryList();
+            //ArrayListAction.GetGroceryList();
+
+
+            //Console.WriteLine("EXERCISE with ForEachLoop")
+            /*
+             * Write a program that initializes a list integer numbers, and then prints the numbers out along with their sum. 
+             * Sample output:
+             * Numbers: 2 4 6
+             * Sum: 12
+             */
+            //ForEachLoopAction.DisplaySumOfElem();
+
+
         }
     }
 }

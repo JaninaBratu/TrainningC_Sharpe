@@ -46,6 +46,7 @@
     <Compile Include="ArrayListAction.cs" />
     <Compile Include="DateTimeAction.cs" />
     <Compile Include="DecisionAction.cs" />
+    <Compile Include="ForEachLoopAction.cs" />
     <Compile Include="LoopingAction.cs" />
     <Compile Include="NestedLoopingAction.cs" />
     <Compile Include="OperatorAction.cs" />
