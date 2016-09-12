@@ -43,20 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayListAction.cs" />
-    <Compile Include="DateTimeAction.cs" />
-    <Compile Include="DecisionAction.cs" />
-    <Compile Include="ForEachLoopAction.cs" />
-    <Compile Include="LoopingAction.cs" />
-    <Compile Include="NestedLoopingAction.cs" />
-    <Compile Include="OperatorAction.cs" />
+    <Compile Include="Lessons\Lesson_12\Address.cs" />
+    <Compile Include="Lessons\Lesson_12\CollectionsAction.cs" />
+    <Compile Include="Lessons\Lesson_12\Company.cs" />
+    <Compile Include="Lessons\Lesson_12\Person.cs" />
+    <Compile Include="Lessons\Lesson_9\ArrayListAction.cs" />
+    <Compile Include="Lessons\Lesson_4\DateTimeAction.cs" />
+    <Compile Include="Lessons\Lesson_5\DecisionAction.cs" />
+    <Compile Include="Lessons\Lesson_10\ForEachLoopAction.cs" />
+    <Compile Include="Lessons\Lesson_7\LoopingAction.cs" />
+    <Compile Include="Lessons\Lesson_8\NestedLoopingAction.cs" />
+    <Compile Include="Lessons\Lesson_6\OperatorAction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringAction.cs" />
+    <Compile Include="Lessons\Lesson_3\StringAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TrainningNet.Lessons.Lesson_12;
 
 namespace TrainningNet
 {
@@ -206,7 +207,7 @@ namespace TrainningNet
              */
             //NestedLoopingAction.DisplayNumbersUpTo24();
 
-            
+
             //Console.WriteLine("EXERCISE with Arrays and Collections");
 
             /*
@@ -234,6 +235,30 @@ namespace TrainningNet
              */
             //ForEachLoopAction.DisplaySumOfElem();
 
+
+            //Console.WriteLine("EXERCISE with classes and objects - Lesson 12")
+            //Address adress = CollectionsAction.CreateAdress("Voinicului nr 35", "Craiova", "Dolj", "200342", "Romania");
+            //Address adress2 = CollectionsAction.CreateAdress("Aleea Teatrului, Bloc T1, Scara 3, App 11", "Craiova", 
+            //                                                "Dolj", "123456", "Romania");
+
+            //Person p = CollectionsAction.CreatePerson("Bratu", "Janina", adress);
+            //Person p2 = CollectionsAction.CreatePerson("Coman", "Andrei", adress2);
+
+            //List<Person> listOfPersons = new List<Person>();
+            //listOfPersons.Add(p);
+            //listOfPersons.Add(p2);
+
+
+            //foreach (Person person in listOfPersons)
+            //{
+            //    Console.WriteLine(person.FirstName + " ");
+            //    Console.WriteLine(person.LastName + "\n");
+            //    Console.WriteLine(person.ShippingAddress.City + "," + " ");
+            //    Console.WriteLine(person.ShippingAddress.StreetAddress + " " + "\n");
+            //    Console.WriteLine(person.ShippingAddress.Country + " ");
+            //    Console.WriteLine(person.ShippingAddress.PostalCode + "\n");
+            //    Console.WriteLine("-----------" + "\n");
+            //}
 
         }
     }
