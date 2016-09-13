@@ -47,6 +47,9 @@
     <Compile Include="Lessons\Lesson_12\CollectionsAction.cs" />
     <Compile Include="Lessons\Lesson_12\Company.cs" />
     <Compile Include="Lessons\Lesson_12\Person.cs" />
+    <Compile Include="Lessons\Lesson_13\Course.cs" />
+    <Compile Include="Lessons\Lesson_13\Person.cs" />
+    <Compile Include="Lessons\Lesson_13\Student.cs" />
     <Compile Include="Lessons\Lesson_9\ArrayListAction.cs" />
     <Compile Include="Lessons\Lesson_4\DateTimeAction.cs" />
     <Compile Include="Lessons\Lesson_5\DecisionAction.cs" />

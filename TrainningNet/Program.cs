@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TrainningNet.Lessons.Lesson_12;
+using TrainningNet.Lessons.Lesson_13;
 
 namespace TrainningNet
 {
@@ -260,6 +261,10 @@ namespace TrainningNet
             //    Console.WriteLine("-----------" + "\n");
             //}
 
+
+            //Console.WriteLine("EXERCISE Lesson 13");
+            Course course = new Course();
+            
         }
     }
 }
