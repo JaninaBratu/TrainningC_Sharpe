@@ -263,8 +263,18 @@ namespace TrainningNet
 
 
             //Console.WriteLine("EXERCISE Lesson 13");
-            Course course = new Course();
+            //Course course = new Course("Math");
+            //Console.WriteLine("The name of the course is: " + course.courseName);
+            //Console.WriteLine("The number of enroled student is: " + course.studentList.Count);
             
+            //Console.WriteLine("The name of the students are: ");
+            //foreach (var s in course.studentList)
+            //{
+            //    Console.WriteLine(s.RosterName);        
+            //}
+
+            //Console.WriteLine("EXERCISE Lesson 14")
+
         }
     }
 }
