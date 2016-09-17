@@ -50,6 +50,11 @@
     <Compile Include="Lessons\Lesson_13\Course.cs" />
     <Compile Include="Lessons\Lesson_13\Person.cs" />
     <Compile Include="Lessons\Lesson_13\Student.cs" />
+    <Compile Include="Lessons\Lesson_14\Customer.cs" />
+    <Compile Include="Lessons\Lesson_14\Order.cs" />
+    <Compile Include="Lessons\Lesson_14\OrderAction.cs" />
+    <Compile Include="Lessons\Lesson_16\Person.cs" />
+    <Compile Include="Lessons\Lesson_16\PersonAction.cs" />
     <Compile Include="Lessons\Lesson_9\ArrayListAction.cs" />
     <Compile Include="Lessons\Lesson_4\DateTimeAction.cs" />
     <Compile Include="Lessons\Lesson_5\DecisionAction.cs" />

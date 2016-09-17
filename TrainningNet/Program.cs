@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using TrainningNet.Lessons.Lesson_12;
 using TrainningNet.Lessons.Lesson_13;
+using TrainningNet.Lessons.Lesson_14;
+using TrainningNet.Lessons.Lesson_16;
 
 namespace TrainningNet
 {
@@ -266,7 +268,7 @@ namespace TrainningNet
             //Course course = new Course("Math");
             //Console.WriteLine("The name of the course is: " + course.courseName);
             //Console.WriteLine("The number of enroled student is: " + course.studentList.Count);
-            
+
             //Console.WriteLine("The name of the students are: ");
             //foreach (var s in course.studentList)
             //{
@@ -274,7 +276,18 @@ namespace TrainningNet
             //}
 
             //Console.WriteLine("EXERCISE Lesson 14")
+            //string newOrder = "1234"; - this is for dinamic input, the verification should be here
+            //if(newOrder != "")
+            //Order order = new Order("1234");
+            //OrderAction.AddOrdersToList(order);
+            //Order order2 = new Order("1239");
+            //OrderAction.AddOrdersToList(order2);
 
+            //Customer customer = new Customer("Billy");
+            //OrderAction.DisplayHistoryOfOrders(customer, new List<Order>() { order, order2});
+
+            //Console.WriteLine("EXERCISE Lesson 16")
+            //PersonAction.GetFilteredListByAge();
         }
     }
 }

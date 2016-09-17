@@ -6,8 +6,10 @@ namespace TrainningNet.Lessons.Lesson_14
 {
     public class OrderAction
     {
+        public static List<Order> orderList = new List<Order>();
+        public static List<Order> tempOrderList = new List<Order>();
 
-        public void DisplayHistoryOfOrders(Customer customer, List<Order> listOfOrders)
+        public static void DisplayHistoryOfOrders(Customer customer, List<Order> listOfOrders)
         {
             List<Order> orderList = listOfOrders;
             Console.WriteLine("The customer of the list of orders is: " + customer.Name);
@@ -18,30 +20,38 @@ namespace TrainningNet.Lessons.Lesson_14
             }
         }
 
-        public void AddOrdersToList(Order order)
+        public static void AddOrdersToList(Order order)
         {
-            List<Order> orderList = new List<Order>();
-            string orderNumber = order.OrderNumber;
+            bool isEqual = false;
 
             if (order != null)
             {
                 if (orderList.Count > 0)
                 {
-                    //var match = orderList.FirstOrDefault(orderNumber => order.OrderNumber.Contains(order.Or));
-                    //if (match != null)
-                    //{
-                            
-                    //}
-                        //foreach(var o in orderList)
-                        //{
-                        //    if (o.OrderNumber.Equals(order.OrderNumber))
-                        //    {
-                        //        o.OrderNumber.Replace(o.OrderNumber, order.OrderNumber);
-                        //    }
-                        //}
+                    tempOrderList = orderList;
+                    foreach (var o in tempOrderList)
+                    {
+                        if (o.OrderNumber.Equals(order.OrderNumber))
+                        {
+                            isEqual = true;
+                            o.OrderDate = order.OrderDate;
+                        }
+                    }
+                    if (!isEqual)
+                    {
+                        orderList.Add(order);
+                    }
                 }
-                orderList.Add(order);
+                else
+                {
+                    orderList.Add(order);
+                }
             }
-        }
+            else
+            {
+                Console.WriteLine("The order cannot be empty! Please choose another one");
+            }
+       }
+       
     }
 }
