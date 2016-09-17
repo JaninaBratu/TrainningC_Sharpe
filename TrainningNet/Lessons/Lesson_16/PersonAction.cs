@@ -11,6 +11,8 @@ namespace TrainningNet.Lessons.Lesson_16
         /*
          * How  to find how much ocurences is in a list based on a condition
          * int nrOfOccurence = ((from x in nameOfPersons where x.Equals(result) select x).Count());
+         * 
+         * http://www.codeproject.com/Tips/69400/Count-number-of-occurences-of-a-value-in-a-List-us
          * */
 
         public static List<Person> GenerateListOfPeople()

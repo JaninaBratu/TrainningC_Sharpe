@@ -287,7 +287,7 @@ namespace TrainningNet
             //OrderAction.DisplayHistoryOfOrders(customer, new List<Order>() { order, order2});
 
             //Console.WriteLine("EXERCISE Lesson 16")
-            //PersonAction.GetFilteredListByAge();
+            PersonAction.GetPersonsByAge();
         }
     }
 }
