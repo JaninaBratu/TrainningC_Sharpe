@@ -55,6 +55,9 @@
     <Compile Include="Lessons\Lesson_14\OrderAction.cs" />
     <Compile Include="Lessons\Lesson_16\Person.cs" />
     <Compile Include="Lessons\Lesson_16\PersonAction.cs" />
+    <Compile Include="Lessons\Lesson_17\MyInvalidTokenException.cs" />
+    <Compile Include="Lessons\Lesson_17\MyMissingTokenException.cs" />
+    <Compile Include="Lessons\Lesson_17\TokenAction.cs" />
     <Compile Include="Lessons\Lesson_9\ArrayListAction.cs" />
     <Compile Include="Lessons\Lesson_4\DateTimeAction.cs" />
     <Compile Include="Lessons\Lesson_5\DecisionAction.cs" />

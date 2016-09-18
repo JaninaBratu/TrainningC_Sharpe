@@ -7,6 +7,7 @@ using TrainningNet.Lessons.Lesson_12;
 using TrainningNet.Lessons.Lesson_13;
 using TrainningNet.Lessons.Lesson_14;
 using TrainningNet.Lessons.Lesson_16;
+using TrainningNet.Lessons.Lesson_17;
 
 namespace TrainningNet
 {
@@ -287,7 +288,14 @@ namespace TrainningNet
             //OrderAction.DisplayHistoryOfOrders(customer, new List<Order>() { order, order2});
 
             //Console.WriteLine("EXERCISE Lesson 16")
-            PersonAction.GetPersonsByAge();
+            //PersonAction.GetPersonsByAge();
+
+            //Console.WriteLine("EXERCISE Lesson 17")
+            //TokenAction tokenAction = new TokenAction();
+            //tokenAction.GetAccessPermissions("Jane");
+            //tokenAction.GetAccessPermissions("");
+            //tokenAction.GetAccessPermissions("Janina");
+
         }
     }
 }
